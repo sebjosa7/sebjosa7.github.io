@@ -1,0 +1,38 @@
+.menu a {
+    color: darkgray;
+    font-weight: 300;
+}
+
+.menu a:hover {
+    color: #6fd427;
+    border-bottom: 2px solid #6fd427;
+}
+
+.menu a:active {
+    color: #6fd427;
+}
+/* celular */
+
+@media screen and (min-width: 360px) {
+    .nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+h2{
+    font-size: small;
+    text-align: center;
+}
+
+.container-fluid{
+    width: 80%;
+}
+
+.img-prod{
+    height: 200px;
+}
+
+td, th{
+    text-align: center;
+}
